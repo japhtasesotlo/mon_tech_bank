@@ -1,8 +1,13 @@
-import 'package:flutter/widgets.dart';
 
 abstract class ApiHeaderKeys {
   static const String appAuth = 'Authorization';
 }
+
+abstract class MockServerConstants {
+  static const String defaultUserId = 'c0b747de-8dfc-457f-998d-c2efa805d1f2';
+  static const String accountListId = '4083bf56-f7a3-45d6-a6e0-c4f05889a393';
+}
+
 
 class NetworkHelper {
 
