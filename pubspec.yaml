@@ -1,0 +1,58 @@
+name: mon_tech_bank
+description: A new Flutter application.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Networking
+  http:
+  dio:
+  retrofit: any
+
+  # Json
+  json_annotation:
+  json_serializable:
+  dio_flutter_transformer:
+
+  # Service locator
+  get_it:
+
+  # Rx
+  rxdart:
+
+  # Logging
+  logging:
+  logger: any
+
+  #configuration
+  global_configuration:
+
+  provider:
+
+  #storage
+  shared_preferences: any
+
+  #enumeration
+  enum_to_string:
+
+  firebase_remote_config: ^0.4.0+2
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  retrofit_generator: any
+  #tdd
+  mockito:
+  build_runner:
+  built_value_generator:
+
+flutter:
+  uses-material-design: true
